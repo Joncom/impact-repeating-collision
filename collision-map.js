@@ -10,13 +10,6 @@ ig.module('plugins.joncom.endless-collision-map.collision-map')
 
     ig.CollisionMap.inject({
 
-        /*
-        trace: function(x, y, vx, vy, objectWidth, objectHeight) {
-            console.log(x);
-            return this.parent(x, y, vx, vy, objectWidth, objectHeight)
-        },
-        */
-
         _wrapTile: function(tile, dimension) {
             var remainder = tile % dimension;
             if(tile >= dimension) {
