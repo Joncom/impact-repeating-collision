@@ -3,7 +3,9 @@ impact-repeating-collision
 
 #### A plugin for ImpactJS which allows a repeatable collision map. ####
 
-[Click here for a demo.](http://commins.ca/impact-repeating-collision/)
+## Demo ##
+
+The demo can be viewed [here](http://commins.ca/impact-repeating-collision/). And its source is available [here](https://github.com/Joncom/impact-repeating-collision-demo).
 
 ## Installation ##
 1. Put plugin here: `/lib/plugins/joncom/repeating-collision/`
