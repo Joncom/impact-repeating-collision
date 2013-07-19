@@ -2,7 +2,7 @@
  * @author   Jonathan Commins
  * @email    joncom@gmail.com
  */
-ig.module('plugins.joncom.endless-collision-map.collision-map')
+ig.module('plugins.joncom.repeating-collision.collision-map')
 .requires('impact.collision-map')
 .defines(function() {
 
