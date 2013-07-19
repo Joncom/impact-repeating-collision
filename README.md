@@ -1,4 +1,4 @@
-impact-repeating-collision
+Impact Repeating Collision
 ============================
 
 #### A plugin for ImpactJS which allows a repeatable collision map. ####
