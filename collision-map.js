@@ -19,6 +19,10 @@ ig.module('plugins.joncom.repeating-collision.collision-map')
             }
         },
 
+        // The is a modified _traceStep function that
+        // overloads its counterpart in the collision-map
+        // module. Most of the code is the same, so perform
+        // a 'diff' on the two to see what has changed.
         _traceStep: function( res, x, y, vx, vy, width, height, rvx, rvy, step ) {
 
             res.pos.x += vx;
